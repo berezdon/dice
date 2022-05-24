@@ -1,0 +1,12 @@
+.header__setting-button_inactive {
+  background-color: #fff;
+  border: 0.1vw solid rgba(0,0,0,.15);
+  box-sizing: border-box;
+  color: rgba(0,0,0,.15);
+  cursor: auto;
+}
+
+.header__setting-button_inactive:hover {
+  background-color: #fff;
+  color: rgba(0,0,0,.15);
+}

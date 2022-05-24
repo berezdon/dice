@@ -1,0 +1,4 @@
+.header__events-issues {
+  display: flex;
+  flex-direction: column;
+}

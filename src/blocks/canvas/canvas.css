@@ -1,0 +1,15 @@
+.canvas {
+  width: 650px;
+}
+
+@media screen and (max-width: 1024px){
+  .canvas {
+    width: 65vw;
+  }
+}
+
+@media screen and (max-width: 780px){
+  .canvas {
+    width: 90vw;
+  }
+}

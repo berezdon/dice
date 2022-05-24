@@ -1,0 +1,46 @@
+.header {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+  gap: 10px;
+  width: 950px;
+  max-width: 1280px;
+  margin: 0 auto;
+}
+
+@media screen and (max-width: 950px){
+  .header {
+    width: 100%;
+  }
+}
+
+@media screen and (max-width: 320px){
+  .header {
+  }
+}
+
+@import url(./__setting/header__setting.css);
+@import url(./__setting-header/header__setting-header.css);
+@import url(./__setting-container/header__setting-container.css);
+@import url(./__setting-label/header__setting-label.css);
+@import url(./__setting-number-of-dices-input/header__setting-number-of-dices-input.css);
+@import url(./__setting-button/header__setting-button.css);
+@import url(./__combinations/header__combinations.css);
+@import url(./__combinations-button/header__combinations-button.css);
+@import url(./__combinations-dice/header__combinations-dice.css);
+@import url(./__events/header__events.css);
+@import url(./__events-container/header__events-container.css);
+@import url(./__events-title/header__events-title.css);
+@import url(./__events-arrow/header__events-arrow.css);
+@import url(./__events-arrow/_active/header__events-arrow_active.css);
+@import url(./__events-pointer/header__events-pointer.css);
+@import url(./__events-event/header__events-event.css);
+@import url(./__events-event/_active/header__events-event_active.css);
+@import url(./__events-issues/header__events-issues.css);
+@import url(./__events-button/header__events-button.css);
+@import url(./__combinations-dice/_event/header__combinations-dice_event.css);
+@import url(./__setting-button/_inactive/header__setting-button_inactive.css);
+@import url(./__combinations-edit/header__combinations-edit.css);
+@import url(./__events-dice/header__events-dice.css);
+@import url(./__events-dices/header__events-dices.css);
+@import url(./__events-dice-checkbox/header__events-dice-checkbox.css);
+@import url(./__events-dice/_row/header__events-dice_row.css);

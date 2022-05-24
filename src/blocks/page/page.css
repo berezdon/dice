@@ -1,0 +1,10 @@
+.page {
+  /*Для эксплорера*/
+  -ms-user-select: none;
+  /*Для мозилы*/
+  -moz-user-select: none;
+  /*Для Сафари и Хрома*/
+  -webkit-user-select: none;
+  /*Для Браузеров последней версии*/
+  user-select: none;
+}

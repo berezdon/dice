@@ -1,0 +1,5 @@
+.header__combinations-button {
+  margin: 5px;
+}
+
+@import url('./_height/header__combinations-button_height.css');

@@ -12,10 +12,14 @@ module.exports = {
   },
   mode: 'development',
   devServer: {
-    contentBase: path.resolve(__dirname, './dist'),
+    /*Для нового  "webpack": "^5.0.0 и выше", нужно через static задавать путь*/
+    static: {
+      directory: path.join(__dirname, './dist'),// путь, куда "смотрит" режим разработчика
+    },
     compress: true,
-    port: 8181,
-
+    port: 9000,
+    allowedHosts: 'all',
+    historyApiFallback: true,
     open: true
   },
   module: {

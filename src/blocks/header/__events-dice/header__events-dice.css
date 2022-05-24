@@ -1,0 +1,6 @@
+.header__events-dice {
+  display: flex;
+  flex-direction: column;
+  margin-left: 20px;
+  font-size: 18px;
+}

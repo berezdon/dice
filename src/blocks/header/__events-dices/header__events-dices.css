@@ -1,0 +1,5 @@
+.header__events-dices {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+}

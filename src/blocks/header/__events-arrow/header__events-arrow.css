@@ -1,0 +1,10 @@
+.header__events-arrow {
+  background-image: url("../../../images/arrow_bottom.png");
+  background-size: 80%;
+  background-position: center;
+  background-repeat: no-repeat;
+  width: 32px;
+  height: 32px;
+}
+
+@import url(./_active/header__events-arrow_active.css);

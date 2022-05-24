@@ -1,0 +1,19 @@
+.header__events-title {
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+  color: transparent;
+  text-shadow: 0 0 0 black;
+  margin: 0;
+  padding: 0 0 0 5px;
+  font-size: 24px;
+  background-color: lightgray;
+  /*Для эксплорера*/
+  -ms-user-select: none;
+  /*Для мозилы*/
+  -moz-user-select: none;
+  /*Для Сафари и Хрома*/
+  -webkit-user-select: none;
+  /*Для Браузеров последней версии*/
+  user-select: none;
+}

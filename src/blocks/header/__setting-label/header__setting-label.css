@@ -1,0 +1,6 @@
+.header__setting-label {
+  font-size: 18px;
+}
+
+@import url(./_dices/header__setting-label_dices.css);
+@import url(./_throws/header__setting-label_throws.css);
