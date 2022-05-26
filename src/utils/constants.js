@@ -28,6 +28,8 @@ const constValues = {
 }
 const numberOfThrows = document.querySelector('.header__setting-number-of-throws-input');
 const name = 'Событие';
+const startButtonStart = 'Рассчитываем ...'
+const startButtonStop = 'Рассчитать'
 
 export {
   slider,
@@ -56,5 +58,7 @@ export {
   getCanvas,
   constValues,
   numberOfThrows,
-  name
+  name,
+  startButtonStart,
+  startButtonStop
 }

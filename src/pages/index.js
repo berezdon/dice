@@ -25,9 +25,6 @@ import {
   twoDiceElem, getCanvas, constValues
 } from "../utils/constants";
 
-
-
-
 let eventsArray = []
 let sliderValue = '1';
 let isAllCombination = true;

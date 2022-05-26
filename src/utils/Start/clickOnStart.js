@@ -1,4 +1,4 @@
-import { numberOfThrows} from "../constants";
+import {numberOfThrows} from "../constants";
 import handleStart from "./handleStart";
 import getMaxOfArray from "../Canvas/getMaxOfArray";
 import handleGetIntervalsX from "../Canvas/handleGetIntervalsX";
