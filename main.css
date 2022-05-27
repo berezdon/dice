@@ -11,6 +11,7 @@
 .header__setting-label{font-size:18px}
 .header__setting-number-of-dices-input{cursor:pointer}
 .header__setting-button{align-items:center;background-color:#0075ff;border:.1vw solid #0075ff;border-radius:10px;color:#fff;cursor:pointer;display:flex;font-size:24px;justify-content:center;margin:5px 20px;padding:5px}.header__setting-button:hover{background-color:#4169e1;color:#d5d5d5}
+.header__setting-validation{color:#8b0000}
 .header__combinations{display:flex;flex-wrap:wrap}
 .header__combinations-content{align-items:center;display:flex;flex-wrap:wrap;justify-content:center}
 .header__combinations-button_height{height:55px}
