@@ -27,9 +27,10 @@ const constValues = {
   height: getCanvas.height,
 }
 const numberOfThrows = document.querySelector('.header__setting-number-of-throws-input');
+const throws = document.querySelector('.header__setting-number-of-throws-input');
+const validation = document.querySelector('.header__setting-validation');
 const name = 'Событие';
-const startButtonStart = 'Рассчитываем ...'
-const startButtonStop = 'Рассчитать'
+const validationText = 'Значение может быть от 1 до 10 000';
 
 export {
   slider,
@@ -59,6 +60,7 @@ export {
   constValues,
   numberOfThrows,
   name,
-  startButtonStart,
-  startButtonStop
+  throws,
+  validation,
+  validationText
 }

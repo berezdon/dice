@@ -8,6 +8,7 @@ import oneDice from "../utils/ReadyCombinations/oneDice/oneDice";
 import twoDice from "../utils/ReadyCombinations/twoDice/twoDice";
 import anyCombination from "../utils/ReadyCombinations/anyCombination/anyCombination";
 import changeSlider from "../utils/Slider/changeSlider";
+import changeThrows from "../utils/Throws/changeThrows";
 import clickOnStart from "../utils/Start/clickOnStart";
 import clickOnReset from "../utils/Reset/clickOnReset";
 import Canvas from "../components/Canvas";
@@ -22,7 +23,10 @@ import {
   notA,
   anyCombinationElem,
   oneDiceElem,
-  twoDiceElem, getCanvas, constValues
+  twoDiceElem,
+  getCanvas,
+  constValues,
+  throws
 } from "../utils/constants";
 
 let eventsArray = []
@@ -31,6 +35,7 @@ let isAllCombination = true;
 const canvas = new Canvas(getCanvas, constValues);
 sessionStorage.setItem('sliderValue' , '1');
 slider.addEventListener('change', changeSlider);
+throws.addEventListener('input', changeThrows);
 start.addEventListener('click', () => {clickOnStart(canvas)});
 reset.addEventListener('click', () => {clickOnReset(canvas)});
 addEvent.addEventListener('click', clickOnAddEvent);
