@@ -17,8 +17,8 @@ function workTemplateNotADice(template) {
         });
     }
   });
-
-  const variantDices = variantsDices();
+  const slider = Number(sessionStorage.getItem('sliderValue'));
+  const variantDices = variantsDices(slider);
 
   Object.keys(variantDices).forEach((key) => {
     if (!Object.keys(objDices).find((key2) => {

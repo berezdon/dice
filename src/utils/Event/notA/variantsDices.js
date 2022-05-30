@@ -1,5 +1,4 @@
-function variantsDices() {
-  const slider = Number(sessionStorage.getItem('sliderValue'));
+function variantsDices(slider) {
   const obj = {}
 
   const newObj = {}
