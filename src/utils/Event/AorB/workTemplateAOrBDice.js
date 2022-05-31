@@ -19,8 +19,6 @@ function workTemplateAOrBDice(template) {
     }
   });
 
-  console.log(objDices);
-
   let isAllAll = false
 
   Object.keys(objDices).forEach((item) => {
