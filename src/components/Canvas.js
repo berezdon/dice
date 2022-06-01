@@ -96,13 +96,15 @@ export default class Canvas {
       this._startValueY = 1;
     }
     else if (getIntervalsY > 10 && getIntervalsY <= 100) {
-      this._startValueY = (this._maximum + (10 - this._maximum % 10))/ 10;
+      if (getIntervalsY % 10 === 0) this._startValueY = (this._maximum + (this._maximum % 10))/ 10;
+      else this._startValueY = (this._maximum + (10 - this._maximum % 10))/ 10;
     }
     else if (getIntervalsY > 100 && getIntervalsY <= 1000) {
-      this._startValueY = (this._maximum + (10 - this._maximum % 10))/ 10;
+      if (getIntervalsY % 100 === 0) this._startValueY = (this._maximum + (this._maximum % 10))/ 10;
+      else this._startValueY = (this._maximum + (10 - this._maximum % 10))/ 10;
     }
     else if (getIntervalsY > 1000 && getIntervalsY <= 10000) {
-      this._startValueY = (this._maximum + (10 - this._maximum % 10))/ 10;
+      this._startValueY = (this._maximum + (this._maximum % 10))/ 10;
     }
 
     this._intervalsY = 10;
