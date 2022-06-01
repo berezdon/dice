@@ -34,6 +34,9 @@ export default class Canvas {
     this._ctx.stroke();
     this._drawVerticalDashesAndSignatures();
     this._drawHorizontalDashesAndSignatures();
+    this._ctx.textAlign = "left";
+    this._ctx.fillText("Число бросаний", 55 , 30);
+    this._ctx.stroke();
     this._ctx.closePath();
     this._drawGrid();
   }
